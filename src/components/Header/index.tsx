@@ -4,12 +4,7 @@ import Image from "next/image";
 const Header = () => {
   return (
     <Flex flex="1" w="100%" h="100" justifyContent="center" alignItems="center">
-      <Image
-        src="/world-trip-logo.svg"
-        alt="Picture of the author"
-        width={185}
-        height={50}
-      />
+      <Image src="/world-trip-logo.svg" alt="logo" width={185} height={50} />
     </Flex>
   );
 };
